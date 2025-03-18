@@ -1,0 +1,252 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff color white;
+    padding: 15px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1000;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+body {
+    background-color: #625d5d;
+}
+.first-view {
+    height: 106vh;
+    background-image: url('logo-transparent-png.png');
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold; 
+    border: 5px solid #000;
+    border-bottom: none;
+}
+.logo {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+  /* Navigation Bar */
+.nav {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: -450px;
+    margin-bottom: 10px;
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav li a:hover {
+    color: #ff9800;
+}
+
+  /* Login & Signup Buttons */
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+    margin-right: 70px;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.auth-buttons a:hover {
+    background: #ff9800;
+    border-color: #ff9800;
+}
+
+
+
+/* Header */
+.header2 {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    margin-top: 120px;
+    padding: 40px 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header2 h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+.header2 p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Courses Section */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+/* Course Card */
+.course-card {
+    background: rgb(178, 212, 207);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.course-card h2 {
+    margin-top: 0;
+    color: #444;
+}
+
+.course-card p {
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0;
+}
+
+.price {
+    display: block;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #2575fc;
+    margin: 10px 0;
+}
+
+/* Enroll Button */
+button {
+    background: #2575fc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #6a11cb;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: black;
+    color:#eeeae8;
+    padding :100px 0 30px;
+    font-size : 13px;
+    line-height:20px;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 20%;
+    padding :10px;
+}
+.Logo{
+    width:  0px;
+    margin-top: -10px;
+}
+.col h3{
+    width:  fit-content;
+    margin-bottom : 10px; 
+    /* position:relative; */
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #b4b6c1;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+form.far{
+     font-size :18px;
+     margin-right: 10px;
+}
+form input{
+    width:100%;
+    background: transparent;
+    color: #ccc;
+    border:0;
+    /* outline: none; */
+}
+form button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form button fas{
+    font-size: 16px;
+    color:#7ade73;
+}
+.footer-bottom {
+  background-color: #444;
+  color: #fff;
+  padding: 10px 5px;
+  text-align: center;
+  clear: both; 
+  padding-bottom: 5px;
+  width: 1200px;
+  height: 30px;
+}
+
+.col h4{
+    width:  fit-content;
+    margin-bottom : 20px; 
+    position:relative;
+}

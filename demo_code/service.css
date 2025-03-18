@@ -1,0 +1,224 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff color white;
+    padding: 15px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1000;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.first-view {
+    height: 106vh;
+    background-image: url('logo-transparent-png.png');
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold; 
+    border: 5px solid #000;
+    border-bottom: none;
+}
+.logo {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+  /* Navigation Bar */
+.nav {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: -450px;
+    margin-bottom: 10px;
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav li a:hover {
+    color: #ff9800;
+}
+
+  /* Login & Signup Buttons */
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+    margin-right: 70px;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.auth-buttons a:hover {
+    background: #ff9800;
+    border-color: #ff9800;
+}
+
+/*Service Section*/
+
+.diffSection {
+  text-align: center;
+}
+.service-title{
+    font-size: 50px;
+    padding: 100px;
+    padding-bottom: 40px;
+    color: #edeaed;
+    text-align: center;
+}
+.service-swipe {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("img_service/b3.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.service-swipe .s-card img {
+	width: 100px;
+}
+.service-swipe a {
+	padding: 0;
+	margin: 40px 10px;
+}
+.service-swipe .s-card {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	align-items: center;
+	text-align: center;
+	width: 350px;
+	height: 200px;
+	box-shadow: inset 0 0 20px rgba(255,255,255,0.05),
+					0 0 50px rgba(0,0,0,0.8);
+	border-radius: 5px;
+	cursor: pointer;
+	transition-duration: .5s;
+}
+.service-swipe .s-card p {
+	color: #f2f2f2;
+	font-size: 1.2em;
+	font-family: 'Open Sans',sans-serif;
+}
+.service-swipe .s-card:hover {
+	box-shadow: 0 0 50px rgba(255,255,255,0.8);
+	transform: translateY(-10px);
+} 
+
+/* footer css*/
+footer{
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  background: black;
+  color:#eeeae8;
+  padding :100px 0 30px;
+  border-top-left-radius:125px;
+  font-size : 13px;
+  line-height:20px;
+}
+.row{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.col{
+  flex-basis: 25%;
+  padding :10px;
+}
+.Logo{
+  width:  0px;
+  margin-bottom: 0;
+}
+.col h3{
+  width:  fit-content;
+  margin-bottom : 40px; 
+  position:relative;
+}
+.email-id{
+  width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0;
+}
+ul li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+ul li a{
+  text-decoration: none;
+  color:#fff;
+}
+form{
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #b4b6c1;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+form.far{
+   font-size :18px;
+   margin-right: 10px;
+}
+form input{
+  width:100%;
+  background: transparent;
+  color: #ccc;
+  border:0;
+  outline: none;
+}
+form button {
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+form button fas{
+  font-size: 16px;
+  color:#7ade73;
+}
+.footer-bottom {
+background-color: #444;
+color: #fff;
+padding: 10px 525px;
+text-align: center;
+clear: both;
+}
+
+.footer-bottom p {
+margin: 0;
+}
+.col h4{
+  width:  fit-content;
+  margin-bottom : 20px; 
+  position:relative;
+}
